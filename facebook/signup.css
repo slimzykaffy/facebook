@@ -1,0 +1,144 @@
+/* * {
+    text-align: center;
+    justify-content: center;
+    background-color: antiquewhite;
+   
+}
+.first {
+    margin-left: 400px;
+    margin-right: 400px;
+} */
+/* .box {
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+.div1{
+    background-color: red;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+}
+.div2{
+    background-color: green;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+
+}
+.div3 {
+    background-color: blue;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+} */
+
+html {
+    margin: 0;
+    height: 100%;
+    /* background-color: #f0f2f5; */
+    background-color: whitesmoke;
+    width: 100%;
+}
+.body {
+    width: 430px;
+    /* position: relative; */
+    height: 580px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+}
+.first {
+    text-align: center;
+    /* padding-top: 15px; */
+    margin: auto;
+    font-family: sans-serif;
+}
+.first>h2 {
+    padding-top: 15px;
+   margin: auto;
+    font-weight: bolder;
+    font-size: 25px;
+    /* font-family: sans-serif; */
+}
+.first p {
+    margin: 5px;
+}
+.parent {
+    margin: 10px;
+}
+
+.input {
+    /* padding: 13px 10px; */
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 40%;
+    margin-bottom:  10px;
+    border-radius: 10px;
+    border: 1px solid ;
+    justify-content: space-between;
+}
+span {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    /* display: inline-block; */
+    width: 10px;
+    text-align: center;
+    justify-content: center;
+}
+select {
+    padding: 10px;
+    margin-right: 10px;
+    width: 30%;
+    height: 40px;
+    /* display: inline-block; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.gender {
+    display: inline-block;
+    border: 1px solid black;
+    /* padding: 5px px 5px 2px; */
+    /* margin-right: 20px; */
+    width: 25%;
+    margin-right: 10px;
+    height: 40px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    /* padding: 10px 5px ; */
+    /* padding: 2px; */
+    border-radius: 10px;
+}
+.parent-gender {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.gender > label {
+    padding-right: 30px;
+}
+.second-input {
+    padding: 13px 10px 13px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid ;
+    width: 90%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.btn {
+    text-align: center;
+}
+.btn > button {
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    border-style: none;
+}
